@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "cloudflare-docker-proxy.cljgmyx.works.dev": dockerHub,
+  "${workername}.${username}.workers.dev/": dockerHub,
 
   // staging
   "cloudflare-docker-proxy-staging.cljgmyx.works.dev": dockerHub,
