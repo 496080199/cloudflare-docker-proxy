@@ -16,7 +16,7 @@ const routes = {
   "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "cloudflare-docker-proxy-staging.cljgmyx.works.dev": dockerHub,
 };
 
 function routeByHosts(host) {
